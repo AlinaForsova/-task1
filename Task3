@@ -1,0 +1,17 @@
+#include
+
+int main()
+{
+int cupnumber = 0;
+int platnumber = 0;
+int spoonnumber = 0;
+
+std::cout << "Enter number of cups: ";
+std::cin >> cupnumber;
+platnumber = cupnumber;
+spoonnumber = cupnumber;
+int b = 0;
+b = cupnumber + platnumber + spoonnumber;
+std::cout << "Your final number is " << b;
+return 0;
+}

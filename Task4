@@ -1,0 +1,27 @@
+#include
+
+int main()
+{
+int a = 0;
+float b = 0.0;
+double c = 0.0;
+short d = 0;
+
+std::cout << "Enter int a: ";
+std::cin >> a;
+
+std::cout << "Enter float b: ";
+std::cin >> b;
+
+std::cout << "Enter double c: ";
+std::cin >> c;
+
+std::cout << "Enter short d: ";
+std::cin >> d;
+
+std::cout << "a= " << a;
+std::cout << " b= " << b;
+std::cout << " c= " << c;
+std::cout << " d= " << d;
+return 0;
+}

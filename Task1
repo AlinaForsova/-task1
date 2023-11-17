@@ -1,0 +1,33 @@
+#include
+
+int main()
+{
+int chocnumber = 0;
+int milknumber = 0;
+int cofnumber = 0;
+int chocprice = 0;
+int milkprice = 0;
+int cofprice = 0;
+std::cout << "Enter number of chocolate: ";
+std::cin >> chocnumber;
+
+std::cout << "Enter number of milk: ";
+std::cin >> milknumber;
+
+std::cout << "Enter number of coffee: ";
+std::cin >> cofnumber;
+
+std::cout << "Enter price of chocolate: ";
+std::cin >> chocprice;
+
+std::cout << "Enter price of milk: ";
+std::cin >> milkprice;
+
+std::cout << "Enter price of coffee: ";
+std::cin >> cofprice;
+
+int a = 0;
+a = chocnumber * chocprice + milknumber * milkprice + cofnumber * cofprice;
+std::cout << "Your final price is " << a;
+return 0;
+}

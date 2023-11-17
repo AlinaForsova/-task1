@@ -1,0 +1,28 @@
+#include
+int main()
+{
+char char1 = 0;
+char char2 = 0;
+char char3 = 0;
+char char4 = 0;
+char char5 = 0;
+
+std::cout << "Enter first character: ";
+std::cin >> char1;
+
+std::cout << "Enter second character: ";
+std::cin >> char2;
+
+std::cout << "Enter third character: ";
+std::cin >> char3;
+
+std::cout << "Enter fourth character: ";
+std::cin >> char4;
+
+std::cout << "Enter fifth character: ";
+std::cin >> char5;
+
+
+std::cout << "Your word is " << char1 << char2 << char3 << char4 << char5;
+return 0;
+}
